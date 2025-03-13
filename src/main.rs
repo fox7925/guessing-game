@@ -1,8 +1,8 @@
 use std::io; //the io library comes from the standard library, known as std
 
 fn main() {
+    println!("Welcome to the guessing game!")
     println!("Guess the number!"); //prints a string to screen
-
     println!("Please input your guess"); //prints a string to screen
 
     let mut guess = String::new();
